@@ -12,7 +12,7 @@ senha = "zdlhfb65"
 import pyautogui 
 import time 
 # pyautogui.click-> clicar como mouse 
-# pyautogui.press-> pressionat tecla do teclado
+# pyautogui.press-> pressionar tecla do teclado
 # pyautogui.write-> escrever um texto
 # pyautogui.read-> ler um texto 
 # pyautogui.hotkey-> apertar um conjunto de teclas 
@@ -22,9 +22,9 @@ import time
 pyautogui.PAUSE = 1.5
 
 pyautogui.press("win") # pressiona a tecla windows, para acessar todos os progmas do pc!
-pyautogui.write("chrome") # digita na barra de procura para encontar o progama!
-pyautogui.press("enter") # presssiona a tecla enter para executar o progama!
-time.sleep(5) # o progama dorme por 4 segundos para que o progama exute corretamente!
+pyautogui.write("chrome") # digita na barra de procura para encontar o programa!
+pyautogui.press("enter") # presssiona a tecla enter para executar o programa!
+time.sleep(5) # o programa dorme por 4 segundos para que o programa execute corretamente!
 pyautogui.click(x=279, y=822) # clica na aba de visitante, para abrir um site!
 # pyautogui.doubleClick(746, 243)
 
