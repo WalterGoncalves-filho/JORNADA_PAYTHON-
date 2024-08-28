@@ -9,7 +9,7 @@ senha = "zdlhfb65"
     #https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
 # para instalar a biblioteca "pyautogui" digite no cmd do vs code: pip install pyautogui 
-import pyautogui 
+import pyautogui
 import time 
 # pyautogui.click-> clicar como mouse 
 # pyautogui.press-> pressionar tecla do teclado
